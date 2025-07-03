@@ -35,13 +35,13 @@
   -->
 
   <!-- please send help -->
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="LOS" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" remote="LOS" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" remote="LOS" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" remote="LOS" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" remote="LOS" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LOS" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" remote="LOS" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/display" name="LineageOS/android_hardware_qcom_display" remote="LOS" revision="lineage-22.2-caf-sm8550" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" remote="LOS" revision="lineage-22.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/agm" name="android_vendor_qcom_opensource_agm" remote="LOS" revision="lineage-22.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices" remote="LOS" revision="lineage-22.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" remote="LOS" revision="lineage-22.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="android_hardware_qcom_audio-ar" remote="LOS" revision="lineage-22.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LOS" revision="lineage-22.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/dataipa" name="android_vendor_qcom_opensource_dataipa" remote="LOS" revision="lineage-22.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" remote="LOS" revision="lineage-22.2-caf-sm8550" />
 
 </manifest>
