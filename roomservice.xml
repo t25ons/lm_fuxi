@@ -12,6 +12,9 @@
   <!-- common device tree -->
   <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common" remote="t25" revision="Vampire_v3" />
 
+  <!-- SEPolicy VNDR -->
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="LOS" revision="lineage-22.2-caf-sm8550" />
+
   <!-- hardware supports -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-22.2" />
 
