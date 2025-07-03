@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="t25" fetch="https://github.com/TelegramAt25" />
+  <remote name="t25" fetch="https://github.com/t25ons" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
-  <remote name="kona" fetch="https://github.com/xiaomi-sm8250-devs" />
+  <remote name="fuxi" fetch="https://github.com/fuxi-dev" />
+  <remote name="lolipuru-codeberg" fetch="https://codeberg.org/lolipuru" />
 
   <!-- device tree -->
-  <project path="device/xiaomi/thyme" name="android_device_xiaomi_thyme" remote="t25" revision="axion-22.2" />
+  <project path="device/xiaomi/fuxi" name="android_device_xiaomi_fuxi" remote="fuxi" revision="Vampire_v3" />
 
   <!-- common device tree -->
-  <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="t25" revision="lineage-22.2" />
+  <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common-new" remote="fuxi" revision="lineage-22.2" />
 
   <!-- hardware supports -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-22.2" />
 
-  <!-- kernel tree -->
-  <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="t25" revision="lineage-22.2" />
+  <!-- kernel trees -->
+  <project path="kernel/xiaomi/sm8550" name="android_kernel_xiaomi_sm8550" remote="fuxi" revision="lineage-22.2" />
+  <project path="kernel/xiaomi/sm8550-modules" name="kernel_xiaomi_sm8550-modules" remote="fuxi" revision="lineage-22.2" />
+  <project path="kernel/xiaomi/sm8550-devicetrees" name="android_kernel_xiaomi_sm8550-devicetrees" remote="fuxi" revision="lineage-21" />
 
   <!-- vendor tree -->
-  <project path="vendor/xiaomi/thyme" name="proprietary_vendor_xiaomi_thyme" remote="t25" revision="lineage-22.2" />
+  <project path="vendor/xiaomi/fuxi" name="proprietary_vendor_xiaomi_fuxi" remote="fuxi" revision="lineage-22.2" />
 
   <!-- common vendor tree -->
-  <project path="vendor/xiaomi/sm8250-common" name="proprietary_vendor_xiaomi_sm8250-common" remote="kona" revision="lineage-22.2" />
+  <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" remote="fuxi" revision="lineage-22.2" />
+
+  <!-- ximi camera -->
+  <!--
+  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_miuicamera" remote="lolipuru-codeberg" revision="main" />
+  -->
 
 </manifest>
